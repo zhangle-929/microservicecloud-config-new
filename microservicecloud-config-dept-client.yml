@@ -37,11 +37,11 @@ eureka:
     instance-id: dept-8001.com
     prefer-ip-address: true
     
-info:
-  app.name: atguigu-microservicecloud-springcloudconfig01
-  company.name: www.atguigu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+#info:
+  #app.name: atguigu-microservicecloud-springcloudconfig01
+  #company.name: www.atguigu.com
+  #build.artifactId: $project.artifactId$
+  #build.version: $project.version$
   
 ---
 server:
@@ -77,10 +77,10 @@ eureka:
     instance-id: dept-8001.com
     prefer-ip-address: true
     
-info:
-  app.name: atguigu-microservicecloud-springcloudconfig02
-  company.name: www.atguigu.com
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+#info:
+  #app.name: atguigu-microservicecloud-springcloudconfig01
+  #company.name: www.atguigu.com
+  #build.artifactId: $project.artifactId$
+  #build.version: $project.version$
 
     
